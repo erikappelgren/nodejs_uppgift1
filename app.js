@@ -54,7 +54,7 @@ http.createServer(function (req, res) {
     else if (p.pathname == "/compute") {
         computePage(req, res);
     }
-    else if (p.pathname == "/testcalc") {
+    else if (p.pathname == "/inputcalc") {
         fs.readFile("userinput.html", function (err, data) {
             res.write(data);
             return res.end();
