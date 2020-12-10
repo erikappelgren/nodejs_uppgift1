@@ -1,0 +1,12 @@
+{
+  "name": "nodejs_uppgift1",
+  "version": "0.0.0",
+  "description": "nodejs_uppgift1",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "uppercase": "^2.0.0-beta.20"
+  }
+}
